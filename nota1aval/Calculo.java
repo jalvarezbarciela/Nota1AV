@@ -22,7 +22,7 @@ public class Calculo {
     public void calcularNota() {
         System.out.println("Cal e o nome do alumno?");
         String nombre = sc.next();
-        while (!"fin".equals(nombre) ||!"Fin".equals(nombre)||!"FIN".equals(nombre)) {
+        while (!"fin".equals(nombre)) {
             do {
                 System.out.println("Cal e a nota do teorico 1?");
                 teorico1 = sc.nextFloat();
